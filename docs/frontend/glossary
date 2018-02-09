@@ -1,0 +1,90 @@
+***AJAX:
+JavaScript Asíncrono y XML (AJAX) no es una tecnología por sí misma, es un término que describe un nuevo modo de utilizar conjuntamente varias tecnologías existentes. Esto incluye: HTML o XHTML, CSS, JavaScript, DOM, XML, XSLT, y el objeto XMLHttpRequest. Cuando estas tecnologías se combinan en un modelo AJAX, es posible lograr aplicaciones web capaces de actualizarse continuamente sin tener que volver a cargar la página completa. Esto crea aplicaciones más rápidas y con mejor respuesta a las acciones del usuario.
+
+
+***API:
+Una API es un conjunto de funciones y procedimientos que cumplen una o muchas funciones con el fin de ser utilizadas por otro software. Las siglas API vienen del inglés Application Programming Interface. En español sería Interfaz de Programación de Aplicaciones.
+
+
+***ARROW FUNCTION:
+Las "arrow functions" de ES6 son una nueva manera de expresar las funciones de siempre, de un modo resumido y con algunas características nuevas que explicaremos en este artículo del Manual de ES6.
+
+Aunque son comúnmente conocidas como arrow functions, también podrás oír hablar de ellas con su denominación en español, funciones flecha, o como "fat arrow functions", ya que para formar la flecha se usa una línea doble, del signo matemático igual "=".
+
+Además de servir como azúcar sintáctico, son además una de las novedades más representativas de ES6, y que nos soluciona uno de los problemas más representativos y clásicos de Javascript en su versión ES5, el nuevo contexto generado por las funciones normales.
+
+
+***AXIOS:
+Axios js es una librería de JavaScript construida con el objetivo de gestionar la programación asíncrona con promesas. Mucha gente me preguntará ¿Por qué usar Axios y no usar jQuery que tiene una librería de promesas madura? . La pregunta más bien es ¿Por qué usar jQuery?. jQuery es la librería de Javascript de referencia a nivel de manipulación del arbol DOM . Pero su nivel de abstracción es básico, simplifica el manejo de DOM y gestiona las peticiones Ajax.
+
+
+***CALL:
+En programación de computadoras, una devolución de llamada o retrollamada (en inglés: callback) es una función "A" que se usa como argumento de otra función "B". Cuando se llama a "B", ésta ejecuta "A". Para conseguirlo, usualmente lo que se pasa a "B" es el puntero a "A".
+
+Esto permite desarrollar capas de abstracción de código genérico a bajo nivel que pueden ser llamadas desde una subrutina (o función) definida en una capa de mayor nivel. Usualmente, el código de alto-nivel inicia con el llamado de alguna función, definida a bajo-nivel, pasando a esta un puntero, o un puntero inteligente (conocido como handle), de alguna función. Mientras la función de bajo-nivel se ejecuta, esta puede ejecutar la función pasada como puntero para realizar alguna tarea. En otro escenario, las funciones de bajo nivel registran las funciones pasadas como un handle y luego pueden ser usadas de modo asincrónico.
+El método call() llama a una función con un valor this asignado y argumentos provistos de forma individual.
+
+***CALLBACK:
+Una retrollamada puede ser usada como una aproximación simple al polimorfismo y a la programación genérica, donde el comportamiento de una función puede ser dinámicamente determinado por el paso punteros a funciones o handles a funciones de bajo nivel que aunque realicen tareas diferentes los argumentos sean compatibles entre sí. Esta es una técnica de mucha importancia por lo que se la llama código reutilizable.
+
+
+
+***CONST:
+Las constantes presentan un ámbito de bloque tal y como lo hacen las variables definidas usando la instrucción let, con la particularidad de que el valor de una constante no puede cambiarse a través de la reasignación, y no se puede redeclarar
+
+***ENDPOINT:
+Los servicios web son definiciones dadas con el leguaje de descripción de servicios web o WDSL (por sus iniciales en inglés), a fin de que sean descubiertos e interconectados con los servicios y aplicaciones en los equipos. WDSL es uno de los idiomas más comunes que se utilizan para escribir interfaces de servicios web. El punto final del servicio web describe el punto de contacto para un servicio indicando la ubicación física del servicio, o de qué computadora está viniendo y una definición formal de la interfaz para los programas que están tratando de comunicarse con el servicio.
+
+
+***GET:
+Enlaza la propiedad de un objeto con una función que puede ser llamada cuando la propiedad es buscada.
+A veces es deseable permitir acceso a una propiedad que retorna un valor dinámicamente calculado, o si desea mostrar el estado de alguna variable interna sin requerir el uso de llamadas a métodos explicitos. En JavaScript, esto se puede lograr con el uso de un getter (captador). No es posible tener simultáneamente un getter ligado a una propiedad y que dicha propiedad tenga actualmente un valor, aunque es posible usar un getter junto con un setter para crear un tipo de pseudo-propiedad.
+
+***LET:
+La sentencia let declara una variable de alcance local, la cual, opcionalmente, puede ser inicializada con algún valor.
+
+***MAP():
+Un objeto Map puede iterar sobre sus elementos en orden de inserción. Un bucle for..of devolverá un array de [clave, valor] en cada iteración.
+
+Cabe destacar que un Map es un mapa de un objeto, especialmente un diccionario de diccionarios, will only map to the object's insertion order -- el cual es aleatoreo y no ordenado.
+
+***METHOD:
+En la programación, un método es una subrutina cuyo código es definido en una clase y puede pertenecer tanto a una clase, como es el caso de los métodos de clase o estáticos, como a un objeto, como es el caso de los métodos de instancia. Análogamente a los procedimientos en lenguajes imperativos, un método consiste generalmente de una serie de sentencias para llevar a cabo una acción, un juego de parámetros de entrada que regularán dicha acción o, posiblemente, un valor de salida (o valor de retorno) de algún tipo.
+
+La diferencia entre un procedimiento (generalmente llamado función si devuelve un valor) y un método es que este último, al estar asociado con un objeto o clase en particular, puede acceder y modificar los datos privados del objeto correspondiente de forma tal que sea consistente con el comportamiento deseado para el mismo. Así, es recomendable entender a un método no como una secuencia de instrucciones sino como la forma en que el objeto es útil (el método para hacer su trabajo). Por lo tanto, podemos considerar al método como el pedido a un objeto para que realice una tarea determinada o como la vía para enviar un mensaje al objeto y que éste reaccione acorde a dicho mensaje
+
+***PROMISE:
+El objeto Promise (Promesa) es usado para computaciones asíncronas. Una promesa representa un valor que puede estar disponible ahora, en el futuro, o nunca.
+
+Sintaxis
+new Promise( /* ejecutor */ function(resolver, rechazar) { ... } );
+
+Una Promesa es un proxy para un valor no necesariamente conocido en el momento que es creada la promesa. Permite asociar manejadores que actuarán asincrónicamente sobre un eventual valor en caso de éxito, o la razón de falla en caso de una falla. Esto permite que métodos asíncronos devuelvan valores como si fueran síncronos: en vez de inmediatamente retornar el valor final, el método asíncrono devuelve una promesa de suministrar el valor en algún momento en el futuro.
+
+Una Promesa se encuentra en uno de los siguientes estados:
+
+pendiente (pending): estado inicial, no cumplida o rechazada.
+cumplida (fulfilled): significa que la operación se completó satisfactoriamente.
+rechazada (rejected): significa que la operación falló.
+Una promesa pendiente puede ser cumplida con un valor, o rechazada con una razón (error). Cuando cualquiera de estas dos opciones sucede, los métodos asociados, encolados por el método then de la promesa, son llamados. (Si la promesa ya ha sido cumplida o rechazada en el momento que es anexado su correspondiente manejador, el manejador será llamado, de tal manera que no exista una condición de carrera entre la operación asíncrona siendo completada y los manejadores siendo anexados)
+
+***REQUEST:
+. En un modelo cliente-servidor, un request es un requerimiento, petición o solicitud que le hace un cliente a un servidor. Por lo general los request suelen hacerse a través de una red.
+En el caso de $_REQUEST, es una variable que recoge los parámetros de la URL sin importa que el method del form haya sido GET o POST, no hace distincion ni nada, si por ejemplo typeas esto " echo 'Request: '.$_REQUEST['input_name']; " va a mostrar todo lo que traiga ya sea Integer, String o Array de la variable global $_REQUEST['input_name'] si su valor es nulo no mostrar absolutamente nada.
+
+3. En sitios web, un request es el acceso o "hit" que requiere un navegador cuando requiere un objeto web (imagen, html, script, etc). También llamado petición HTTP.
+
+
+***SUPERAGENT:
+
+
+***THEN():
+
+
+***TOKEN:
+
+
+***WHEN():
+
+
+***${}:

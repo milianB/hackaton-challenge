@@ -1,0 +1,108 @@
+/*PALLETE
+#1b181f dark blue
+#536690 Light blue
+#770b1a Red
+#ffa500 yellow
+*/
+
+
+/* GENERAL */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    background-color: #----;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+}
+
+
+/* ---- nav ---- */
+nav {
+  background-color: #1B181F;
+  height: 100px;
+}
+
+nav > img {
+  padding: 10px;
+}
+
+.fa {
+  color: #FFFFFF;
+  font-size: 45px;
+  padding: 10px;
+}
+
+.fa-headphones {
+  padding-top: 15px;
+}
+
+.song > h2 {
+  color: #FFFFFF;
+}
+
+/* --- main ---*/
+
+.container-fluid {
+  background-image: url("../assets/images/modal-list.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* ---- movie ----*/
+.movie {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.name {
+  background-color: #536690;
+  border: 1px solid #FFF;
+  color: #FFFFFF;
+  height: 100px;
+  padding: 15PX;
+}
+
+.poster {
+  border: 1px solid #FFF;
+  height: 100px;
+}
+
+/* ---- songs ---- */
+.song {
+  background-color: #536690;
+  border: 1px solid #FFF;
+  border-radius: 20px;
+  height: 150px;
+  margin-top: 20px
+}
+
+/* ---- footer ---- */
+h4,h5 {
+  color: #FFA500;
+}
+
+h6 {
+  color: #770B1A;
+  text-decoration: none;
+}
+
+footer {
+  background-color: #1B181F;
+  margin-bottom: 100px;
+  margin-top: 150px;
+}
+
+p {
+  color: #FFFFFF;
+  margin-left: 10px;
+  margin-right: 10px;
+}

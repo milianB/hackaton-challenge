@@ -1,0 +1,188 @@
+@font-face {
+    font-family: '******';
+    src: url('assets/fonts/******/******.eot');
+    src: local('******'), url('../assets/fonts/******/******-Medium.woff') format('woff'), url('../assets/fonts/******/******-Medium.ttf') format('truetype'), url('../assets/fonts/******/******-Medium.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: '******';
+    src: url('assets/fonts/******/******.eot');
+    src: local('******'), url('../assets/******/fonts/******.woff') format('woff'), url('../assets/fonts/******/******.ttf') format('truetype'), url('../assets/fonts/******/******.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/*PALLETE
+#1b181f dark blue
+#536690 Light blue
+#770b1a Red
+*/
+
+
+/* GENERAL */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    background-color: ;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+label {
+    font-family: ;
+    font-weight: ;
+}
+
+.row {
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid {
+    width: 100vw;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+}
+
+/* Estilos home */
+
+.btn-line{
+  float: right;
+}
+
+
+/* HELPERS */
+
+.m-0 {
+    margin: 0px;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.mb-0 {
+    margin-bottom: 0px;
+}
+
+.ml-0 {
+    margin-left: 0px;
+}
+
+.mr-0 {
+    margin-right: 0px;
+}
+
+.m-20 {
+    margin: 20px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.ml-20 {
+    margin-left: 20px;
+}
+
+.mr-20 {
+    margin-right: 20px;
+}
+
+.m-40 {
+    margin: 40px;
+}
+
+.mt-40 {
+    margin-top: 40px;
+}
+
+.mb-40 {
+    margin-bottom: 40px;
+}
+
+.ml-40 {
+    margin-left: 40px;
+}
+
+.mr-40 {
+    margin-right: 40px;
+}
+
+.mt- {
+    margin-top: 200px;
+}
+
+.bkg-blue {
+    background-color: #1b181f;
+}
+
+.bkg-red {
+    background-color: #770b1a;
+}
+
+.bkg-white {
+    background-color: white;
+}
+
+.text-white {
+    color: white;
+}
+
+.text-**** {
+    color: #******;
+}
+
+.text-**** {
+    color: #******;
+}
+
+.bolder {
+    font-weight: 700;
+}
+
+.fake-hr {
+    border-bottom: 2px solid rgba(224, 224, 224, 1);
+}
+
+
+/*MEDIA QUERIES*/
+
+
+@media only screen and (min-width: 480px){
+  img{
+    margin-left: 33.333333%;
+  }
+}
+
+
+/*@media only screen and (min-width:601px)*/
+
+
+/*@media only screen and (min-width:920px)*/
+
+
+/*@media only screen and (min-width:1200px)*/

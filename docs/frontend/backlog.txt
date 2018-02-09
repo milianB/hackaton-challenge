@@ -1,0 +1,38 @@
+﻿Titulo del proyecto
+
+-Pantalla #1 INICIO
+--Pantalla Splash con el logo
+--Pantalla Main
+--Carrousel de posters
+--Botón de inicio de sesión (MODAL)
+--Botón de registro (MODAL)
+--Opcion recuperar contraseña (MODAL)
+
+-Pantalla #2
+--Carrousel de citas (texto)
+--Galeria de películas por género
+--Scroll normal
+--Al hacer click sobre el género abre la pantalla 3
+
+-Pantalla #3
+--Galeria de películas del genero seleccionado (Scrollograma)
+--Scrollrama
+--Al seleccionar la pelicula pasa a la pantalla 4
+
+-Pantalla #4
+--Muestra el poster
+--Muestra la ficha técnica:
+Titulo
+Año
+Director
+(premios)
+--Modal de soundtrack list
+--Botón agregar a lista
+
+-Pantalla #5
+--Pantalla de perfil de usuario
+--Foto de perfil
+--Nombre de usuario
+--Listas personales
+--Modal Lista (Miniposter, titulo de lista, boton de borrar botón de ir a> pantalla 4)
+

@@ -1,0 +1,93 @@
+Título del proyecto
+
+Función #1
+	Objetivo Cambio de pantalla
+	Nombre Splash
+	Paso #
+	Paso #
+	Paso #
+	Resultado Cambio a Main
+
+Función #2
+	Objetivo Inicio de sesion (gmail y password)
+	Nombre Google
+	Paso # 1 Input correo
+	Paso # 2 Input password	
+	Paso # 3 Comprobación de datos
+	Paso # 4 Evaluación si es correcta permite el acceso, de lo contrario envia una alerta.
+	Paso # 5 Modal de recuperación de contraseña (plantilla)
+	Resultado Usuario Logeado
+
+Función #3
+	Objetivo Registro de nuevo usuario
+	Nombre Signup
+	Paso # 1 Registro con Gmail
+	Paso # 2 Confirmación del registro	
+	Resultado Nuevo usuario 
+
+Función #4
+	Objetivo Carrousel de inicio
+	Nombre Carrousel 1
+	Paso # 1 Crear carrousel
+	Paso # 2 Agregar imagenes del API IMDB
+	Paso # 3 Controles de carrousel
+	Resultado Muestra los posters de las peliculas recientes.
+
+Función #5
+	Objetivo Galeria de géneros
+	Nombre Generos
+	Paso # 1 Activa la pagina del genero 
+	Resultado Cambio de página a la del género seleccionado
+
+Función #6
+	Objetivo Mostrar las peliculas del género seleccionado
+	Nombre Scrollrama
+	Paso #1 Mostrar el poster de las películas del genero
+	Paso #2 Al seleccionarla abre la pagina de la pelicula
+	Resultado # Cambio de vista
+
+Función #7
+	Objetivo Mostrar la informacion general de la película
+	Nombre Ficha de pelicula
+	Paso #1 Mostrar Poster 
+	Paso #2 Mostrar Título
+	Paso #3 Mostrar Año
+	Paso #4 Mostrar Director
+	Paso #5 Modal Soundtrack List
+	Paso #6 Botón para agregar a lista personal
+	Paso #6B Agregar ficha a lista personal
+	Paso #7 Activar modal soundtrack list
+	Resultado 
+
+Función #8
+	Objetivo Mostrar Soundtrack List
+	Nombre Modal Soundtrack
+	Paso # 1 Crear lista ordenada
+	Paso # 2 Mostrar número del track
+	Paso # 3 Mostrar título del track
+	Paso # 4 Mostrar duración del track
+	Resultado Soundtrack list
+
+Función #9 Perfil de usuario
+	Objetivo Mostrar los datos de identificación del usuario
+	Nombre Usuario
+	Paso # 1 Mostrar imagen/avatar del usuario
+	Paso # 2 Mostrar nombre de usuario
+	Paso # 3 Mostar Listas personales
+	Paso # 4 Modal lista
+	Paso # 4A Muestra miniposter
+	Paso # 4B Muestra título de la lista
+	Paso # 4C Botón eliminar lista
+	Paso # 4D Botón ir a (pantalla informacion de la película).
+	Resultado
+
+Función #10
+	Objetivo Cerrar Sesión
+	Nombre Logout
+	Paso # 1 Evento botón cerrar sesión
+	Paso # 2 Cambio a pantalla de inicio
+	Resultado Cierre de sesión.
+
+
+
+

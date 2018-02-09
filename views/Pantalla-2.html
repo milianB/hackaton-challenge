@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SoundFilm</title>
+    <link rel="shortcut icon" href="../assets/images/mngrm-black.png">
+    <link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="../css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="../css/font-awesome.css">
+    <link href="../css/pantalla-2.css" rel="stylesheet" type="text/css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <div class="pos-f-t bkg-blue">
+  <div class="collapse" id="navbarToggleExternalContent">
+    <div class="bg-inverse p-4 bkg-white">
+      <h4 class="">Ayuda</h4>
+    </div>
+  </div>
+  <nav class="navbar navbar-inverse bg-inverse">
+    <img class="col-4 col-sm-4 col-md-2 col-lg-2" src="../assets/images/soundfilm.jpg" alt="logo">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </nav>
+</div>
+    <!--<nav class="col-12 col-sm-12 col-md-12 col-lg-12 bkg-blue">
+       <img class="col-4 col-sm-4 col-md-2 col-lg-2" src="../assets/images/soundfilm.jpg" alt="logo">
+         <i class="pull-right fa fa-bars"></i>
+         <div class="pos-f-t">
+  <div class="collapse" id="navbarToggleExternalContent">
+    <div class="bg-inverse p-4">
+      <h4 class="text-white">Collapsed content</h4>
+      <span class="text-muted">Toggleable via the navbar brand.</span>
+    </div>
+  </div>
+  </nav>
+</div>
+      </nav> -->
+    <!-- carrusel -->
+    <div id="carouselExampleSlidesOnly" class="carousel slide m-40 " data-ride="carousel">
+      <div class="carousel-inner" role="listbox">
+        <div class="carousel-item active">
+          <img class="d-block img-fluid" src="../assets/images/avatar.jpg" alt="First slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block img-fluid" src="../assets/images/gahoo.jpg" alt="Second slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block img-fluid" src="../assets/images/galaxia.jpg" alt="Third slide">
+        </div>
+        <!--<div class="carousel-item">
+          <img class="d-block img-fluid" src="../assets/images/bat.jpg" alt="Third slide">
+        </div>-->
+      </div>
+    </div>
+    <main>
+      <!-- botón login -->
+      <button type="button" class="mr-40 btn-line btn-lg bkg-red text-white" data-toggle="modal" data-target="#sign-up">
+           Sign Up
+      </button>
+      <a href="#" id="init" class="offset-2 btn btn-down1 btn-lg bkg-red text-white">Login</a>
+
+          <div class="modal fade" id="sign-up" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Sign Up!</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <!-- formulario -->
+                          <div class="rows">
+                          <div class="row">
+                          	<div class="col-md-12 col-md-offset-4">
+                          		<div class="panel panel-default">
+                      			  	<div class="panel-heading">
+
+                      			 	</div>
+                      			  	<div class="panel-body">
+                      			    	<form accept-charset="UTF-8" role="form">
+                                          <fieldset>
+                      			    	  	<div class="form-group">
+                      			    		    <input class="form-control" placeholder="yourmail@example.com" name="email" type="text">
+                      			    		</div>
+                      			    		<div class="form-group">
+                      			    			<input class="form-control" placeholder="Password" name="password" type="password" value="">
+                      			    		</div>
+                      			    		<div class="checkbox">
+                      			    	    	<label>
+                      			    	    		<input name="remember" type="checkbox" value="Remember Me"> Remember Me
+                      			    	    	</label>
+                      			    	    </div>
+                      			    		<input class="btn btn-lg btn-info btn-block" type="submit" value="Login">
+                      			    	</fieldset>
+                      			      	</form>
+                                            <hr/>
+                                          <center><h4>OR</h4></center>
+                                          <input class="btn btn-lg btn-primary btn-block" type="submit" value="Login via facebook">
+                      			    </div>
+                      			</div>
+                      		</div>
+                      	</div>
+                        </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+        <!-- Modal -->
+
+
+        <section class="mt-10">
+
+          <a href="" class="offset-4" data-toggle="modal" data-target="#recover-password">Recover password</a>
+
+          <div class="modal fade" id="recover-password" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  ...
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+    </main>
+
+    <!--SCRIPTS-->
+    <script src="https://www.gstatic.com/firebasejs/4.8.2/firebase.js"></script>
+    <script src="../js/jquery.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/app.js"></script>
+  </body>
+</html>

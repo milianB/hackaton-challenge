@@ -1,0 +1,107 @@
+/*PALLETE
+#1b181f dark blue
+#536690 Light blue
+#770b1a Red
+#ffa500 yellow
+*/
+
+
+/* GENERAL */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    background-color: #----;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+}
+
+/* ---- nav ---- */
+nav {
+  background-color: #1B181F;
+  height: 100px;
+}
+
+nav > img {
+  padding: 10px;
+}
+
+.fa {
+  color: #FFFFFF;
+  font-size: 45px;
+  padding: 10px;
+}
+
+
+/* ---- main ---- */
+.movie {
+  margin-top: 50px;
+}
+
+.movie > .name > h4 {
+  color: #FFFFFF;
+}
+
+.poster {
+  border: 1px solid #000;
+  height: 150px;
+}
+
+.name {
+  background-color: #770B1A;
+  color: #FFFFFF;
+  height: 50px;
+}
+
+/* ---- modal ---- */
+.modal-header {
+  background-color: #1B181F;
+  color: #FFFFFF;
+}
+
+.poster-modal {
+  border: 1px solid #1B181F;
+  height: 250px;
+}
+
+.movie-tab {
+  background-color: #770B1A;
+}
+
+.information {
+  background-color: #FFFFFF;
+  height: 80px;
+}
+
+.icons > .fa {
+  color: #FFFFFF;
+  font-size: 50px;
+}
+/* ---- footer ---- */
+h4,h5 {
+  color: #FFA500;
+}
+
+h6 {
+  color: #770B1A;
+  text-decoration: none;
+}
+
+footer {
+  background-color: #1B181F;
+  margin-bottom: 100px;
+  margin-top: 150px;
+}
+
+p {
+  color: #FFFFFF;
+  margin-left: 10px;
+  margin-right: 10px;
+}
